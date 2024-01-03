@@ -114,6 +114,10 @@ app.use((req,res,next)=>{
 //     res.render("listings/search.ejs",{alllistings});
 //     // res.send(alllistings);
 // })
+
+app.get("/",wrapAsync(async(req,res)=>{
+    res.redirect("/listings");
+}))
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 
