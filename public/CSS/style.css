@@ -1,0 +1,134 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important; 
+    font-weight: 500 !important;
+}
+
+.my-custom-ht{
+    height: 1rem;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin-left: 0.5rem;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #222222;
+}
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-links{
+    width: 100%;
+    text-align: center;
+}
+.f-info-socials{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.f-info-socials a{
+    margin-left: 0.75rem;
+    text-decoration: none;
+    color: #222222;
+}
+
+.bg-light{
+    background-color: #dbdbdb !important;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;   
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-img {
+    height: 40vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.starability-result {
+    scale: 0.7 !important;
+}
+
+@media only screen and (max-width: 490px) {
+    .offset-3{
+        margin-left: 0 !important;
+    }
+  }
